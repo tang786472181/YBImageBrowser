@@ -43,6 +43,9 @@ typedef void (^YBIBImageScrollViewStatusBlock)(YBIBImageData *imageData, UIScrol
  */
 @interface YBIBImageData : NSObject <YBIBDataProtocol>
 
+/// 图片浏览展示名称
+@property (nonatomic, copy, nullable) NSString *imageDisplayName;
+
 /// 本地图片名字
 @property (nonatomic, copy, nullable) NSString *imageName;
 
