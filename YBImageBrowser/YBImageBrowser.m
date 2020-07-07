@@ -419,10 +419,10 @@
         }
     }
     
-    if (!scrollView.isDecelerating && !scrollView.isDragging) {
-        // Return if not scrolled by finger.
-        return;
-    }
+//    if (!scrollView.isDecelerating && !scrollView.isDragging) {
+//        // Return if not scrolled by finger.
+//        return;
+//    }
     if (page < 0 || page > [self.dataMediator numberOfCells] - 1) return;
     if (self.rotationHandler.isRotating) return;
     
