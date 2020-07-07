@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YBImageBrowser : UIView
 
 /// 数据源数组
-@property (nonatomic, copy) NSMutableArray<id<YBIBDataProtocol>> *dataSourceArray;
+@property (nonatomic, strong) NSMutableArray<id<YBIBDataProtocol>> *dataSourceArray;
 
 /// 数据源代理
 @property (nonatomic, weak) id<YBImageBrowserDataSource> dataSource;
